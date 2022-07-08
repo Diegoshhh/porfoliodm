@@ -1,0 +1,44 @@
+.op{
+    position: absolute;
+    animation: mains 3s ease-in-out;
+}
+@keyframes mains {
+        0% {
+                opacity: 0;
+        }
+
+        100% {
+                opacity: 1;
+        }
+}
+
+.opacityStart{
+        background: transparent;
+        color: #fff;
+        margin: 0;
+        border: none;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        animation: opacityStart 6s ease-in-out infinite reverse;
+    }
+    
+    @keyframes opacityStart {
+            0% {
+            opacity: 0;
+            }
+            25%{
+            opacity: 1;
+        }
+        50%{
+            opacity: 1;
+        }
+            85% {
+            opacity: 1;
+            }
+            100% {
+            opacity: 0;
+            }
+    }
+    
