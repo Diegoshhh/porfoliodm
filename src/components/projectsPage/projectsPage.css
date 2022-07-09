@@ -26,23 +26,26 @@
             opacity: 1;
     }
 }
-
 .container-card{
-    width: 100%;
-    min-height: 65vh;
     display: flex;
     flex-direction: row;
+}
+.card{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 70px;
   }
 .titulo-galery{
-    font-size: 40px;
+    width: 80%;
+    text-align: center;
+    font-size: 25px;
     font-weight: 700;
     color: #fff;
     opacity: .6;
-    margin-top: 30px;
-    margin-bottom: 0px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 .flex{
     display: flex;
@@ -71,11 +74,11 @@
 .card1 {
     font-size: 26px;
     display: flex;
-    width: 25%;
-    height: 480px;
+    width: 80%;
+    height: 440px;
     border-radius: 10px;
     box-shadow: 0 0 15px #000;
-    margin: 20px 0px;
+    margin: 30px auto;
     transition: 0.4s ease-out;
     position: relative;
     left: 0px;
@@ -132,18 +135,18 @@
     background-color: #fff;
 }
 .arrow-projects1{
-	width: 180px;
+	width: 80px;
     position: absolute;
-    bottom: -60px;
-    left: 820px;
+    bottom: -0px;
+    left: 165px;
 	cursor: pointer;
 	animation: scales 1.5s ease-in-out infinite;
 }
 .arrow-projects2{
-	width: 180px;
+	width: 80px;
     position: absolute;
-    bottom: -85px;
-    left: 820px;
+    bottom: -25px;
+    left: 165px;
 	cursor: pointer;
 	animation: scales 1.5s ease-in-out infinite;
 }
@@ -163,8 +166,34 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 110px;
+    margin-top: 20px;
+    gap: 10px;
 }
+
+
+.avatar {
+	width: 40px;
+	height: 40px;
+	box-sizing: border-box;
+	border: 5px white solid;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 5s ease-in-out infinite;
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.avatar img{
+    object-fit: cover;
+    width: 35px;
+    height:35px;
+    border-radius: 50%;
+}
+
 .icono{
     background-color: transparent;
 }
@@ -177,4 +206,363 @@
 .icono box-icon:hover{
     transform: scale(1.8);
     transition: all ease-in-out .7s;
+}
+
+@media only screen and (max-width: 3440px) {
+    .container-git-site{
+        width: 90%;
+        display: flex;
+        justify-content: flex-start;
+        align-self: center;
+        gap: 10px;
+        padding: 0px;
+        margin-left: 10px;
+    }
+
+    .card1 {
+        font-size: 26px;
+        display: flex;
+        width: 30%;
+        height: 440px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px #000;
+        /* margin: 30px auto; */
+        transition: 0.4s ease-out;
+        position: relative;
+        left: 0px;
+    }
+    .container-card{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-skills{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        gap: 90px;
+    }
+
+
+    .avatar {
+        width: 70px;
+        height: 70px;
+        box-sizing: border-box;
+        border: 5px white solid;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+        animation: float 5s ease-in-out infinite;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .avatar img{
+        object-fit: cover;
+        width: 65px;
+        height:65px;
+        border-radius: 50%;
+    }
+    .arrow-projects1{
+        width: 210px;
+        position: absolute;
+        bottom: -50px;
+        left: 1280px;
+        cursor: pointer;
+        animation: scales 1.5s ease-in-out infinite;
+    }
+    .arrow-projects2{
+        width: 210px;
+        position: absolute;
+        bottom: -75px;
+        left: 1280px;
+        cursor: pointer;
+        animation: scales 1.5s ease-in-out infinite;
+    } 
+}
+
+@media only screen and (max-width: 1920px) {
+    .container-git-site{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-self: center;
+        gap: 10px;
+        padding: 0px;
+        margin-left: 10px;
+    }
+
+    .card1 {
+        font-size: 26px;
+        display: flex;
+        width: 30%;
+        height: 440px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px #000;
+        /* margin: 30px auto; */
+        transition: 0.4s ease-out;
+        position: relative;
+        left: 0px;
+    }
+    .container-card{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-skills{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        gap: 90px;
+    }
+
+
+    .avatar {
+        width: 70px;
+        height: 70px;
+        box-sizing: border-box;
+        border: 5px white solid;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+        animation: float 5s ease-in-out infinite;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .avatar img{
+        object-fit: cover;
+        width: 65px;
+        height:65px;
+        border-radius: 50%;
+    }
+    .arrow-projects1{
+        width: 170px;
+        position: absolute;
+        bottom: -30px;
+        left: 870px;
+        cursor: pointer;
+        animation: scales 1.5s ease-in-out infinite;
+    }
+    .arrow-projects2{
+        width: 170px;
+        position: absolute;
+        bottom: -55px;
+        left: 870px;
+        cursor: pointer;
+        animation: scales 1.5s ease-in-out infinite;
+    } 
+}
+@media screen and (max-width: 1600px) {
+    .titulo-galery{
+        font-size: 35px;
+    }
+    
+    .arrow-projects1{
+        width: 170px;
+        position: absolute;
+        bottom: -30px;
+        left: 670px;
+        cursor: pointer;
+        animation: scales 1.5s ease-in-out infinite;
+    }
+    .arrow-projects2{
+        width: 170px;
+        position: absolute;
+        bottom: -55px;
+        left: 670px;
+        cursor: pointer;
+        animation: scales 1.5s ease-in-out infinite;
+    } 
+
+}
+@media only screen and (max-width: 1280px) {
+     
+    .container-git-site{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-self: center;
+        gap: 10px;
+        padding: 0px;
+        margin-left: 10px;
+    }
+    .container-card{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card1 {
+        font-size: 26px;
+        display: flex;
+        width: 95%;
+        height: 440px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px #000;
+        margin: 30px auto;
+        transition: 0.4s ease-out;
+        position: relative;
+        left: 0px;
+    }
+
+    .container-skills{
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        gap: 50px;
+    }
+
+
+    .avatar {
+        width: 50px;
+        height: 50px;
+        box-sizing: border-box;
+        border: 5px white solid;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+        animation: float 5s ease-in-out infinite;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .avatar img{
+        object-fit: cover;
+        width: 45px;
+        height:45px;
+        border-radius: 50%;
+    }
+    .arrow-projects1{
+        width: 150px;
+        position: absolute;
+        bottom: -20px;
+        left: 555px;
+        cursor: pointer;
+        animation: scales 1.5s ease-in-out infinite;
+    }
+    .arrow-projects2{
+        width: 150px;
+        position: absolute;
+        bottom: -45px;
+        left: 555px;
+        cursor: pointer;
+        animation: scales 1.5s ease-in-out infinite;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .arrow-projects1{
+        width: 130px;
+        position: absolute;
+        bottom: -10px;
+        left: 420px;
+        cursor: pointer;
+        animation: scales 1.5s ease-in-out infinite;
+    }
+    .arrow-projects2{
+        width: 130px;
+        position: absolute;
+        bottom: -30px;
+        left: 420px;
+        cursor: pointer;
+        animation: scales 1.5s ease-in-out infinite;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .arrow-projects1{
+        width: 110px;
+        position: absolute;
+        bottom: -10px;
+        left: 330px;
+        cursor: pointer;
+        animation: scales 1.5s ease-in-out infinite;
+    }
+    .arrow-projects2{
+        width: 110px;
+        position: absolute;
+        bottom: -30px;
+        left: 330px;
+        cursor: pointer;
+        animation: scales 1.5s ease-in-out infinite;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    .container-skills{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        gap: 10px;
+    }
+
+    .container-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .avatar {
+        width: 30px;
+        height: 30px;
+        box-sizing: border-box;
+        border: 5px white solid;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+        animation: float 5s ease-in-out infinite;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .avatar img{
+        object-fit: cover;
+        width: 25px;
+        height:25px;
+        border-radius: 50%;
+    }
+    .arrow-projects1{
+        width: 90px;
+        position: absolute;
+        bottom: -10px;
+        left: 160px;
+        cursor: pointer;
+        animation: scales 1.5s ease-in-out infinite;
+    }
+    .arrow-projects2{
+        width: 90px;
+        position: absolute;
+        bottom: -30px;
+        left: 160px;
+        cursor: pointer;
+        animation: scales 1.5s ease-in-out infinite;
+    }
 }

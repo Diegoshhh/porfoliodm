@@ -5,7 +5,7 @@ import './started/start.css'
 
 const Home = () => {
   return (
-    <div className='op'>
+    <div className='op contenedor'>
         <Navbar/>
         <Main/> 
     </div>

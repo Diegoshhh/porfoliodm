@@ -12,6 +12,24 @@ const Main = () => {
   return (
     <>
         <div className='container-general-main'>
+            
+            <div className='content-main'>
+                <p className='text-everyone'>Hi everyone!</p>
+                <p className='text-name light'>I'm Diego Maidana.</p>
+                <p className='text-name'>I build mobile apps and web sites.</p>
+                <div className='text-content'>
+                    <p className='text-presentation'>Welcome to my portfolio, I'm a front end developer. lover of     technology, innovation and constant learning. A couple of years ago I discovered the world of programming and from that moment I knew that it was where I wanted to belong.
+                    </p>
+                </div>
+                <div className='content-resume'>
+                    <button className='btn-resume'>Download CV</button>
+                </div>
+            </div>
+
+            <Link to='/projects' className='content-arrow'>
+                <img className='arrow' src={arrow} alt='flecha'/>
+            </Link>
+
             <div className='avatars-row'>
                 <div className="container-contact">
                     <a href='https://www.linkedin.com/in/diego-maidana-480444184/' className="avatar-contact">
@@ -29,23 +47,6 @@ const Main = () => {
             
                 </div>
             </div>
-
-            <div className='content-main'>
-                <p className='text-everyone'>Hi everyone!</p>
-                <p className='text-name light'>I'm Diego Maidana.</p>
-                <p className='text-name'>I build mobile apps and web sites.</p>
-                <div className='text-content'>
-                    <p className='text-presentation'>Welcome to my portfolio, I'm a front end developer. lover of     technology, innovation and constant learning. A couple of years ago I discovered the world of programming and from that moment I knew that it was where I wanted to belong.
-                    </p>
-                </div>
-                <div className='content-resume'>
-                    <button className='btn-resume'>Download CV</button>
-                </div>
-            </div>
-
-            <Link to='/projects' className='content-arrow'>
-                <img className='arrow' src={arrow} alt='flecha'/>
-            </Link>
         </div>
     </>
   )

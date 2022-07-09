@@ -91,7 +91,7 @@ const ProjectsPage = () => {
           (
             
             <div className="container-card reload">
-            <div className="card1 flex">
+              <div className="card1 flex">
                 <div>
                   <h3 className="title1">School of Strench</h3>
                   <div className="bar">
@@ -108,6 +108,7 @@ const ProjectsPage = () => {
                   </div>
                 </div>
               </div>
+              
               <div className="card1 flex">
                 <div>
                   <h3 className="title1">Ecommerce</h3>
@@ -134,14 +135,14 @@ const ProjectsPage = () => {
                       <div className="filledbar"></div>
                   </div>
                 </div>
-                <div className='container-git-site'>
+                {/* <div className='container-git-site'>
                   <div className='icono'>
                     <box-icon  color='#FFF' type='logo' name="github"></box-icon>
                   </div>
                   <div className='icono'>
                     <box-icon  color='#FFF' type='logo' name="chrome"></box-icon>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           )
