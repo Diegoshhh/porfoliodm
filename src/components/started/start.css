@@ -19,12 +19,12 @@ h6{
 } 
 
 .front-border{
-        color: rgb(65, 65, 65);
+        color: rgb(35, 34, 34);
         text-shadow: 
         -3px -3px 0 rgb(12, 12, 12),
         3px -3px 0 #000,
-        3px 3px 0 #000,
-        -3px 3px 0 #000
+        3px 3px 0 #222,
+        -3px 3px 0 #222,
 }
 
 .border-front{
@@ -103,7 +103,7 @@ h6{
     }
 
 
-@media only screen and (max-width: 3440px) {
+@media (max-width: 3440px) {
         h6{
                 font-size:190px;
                 top: -70px;
@@ -118,7 +118,7 @@ h6{
                 left:450px;
         } 
 }
-@media screen and (max-width: 1600px) {
+@media (max-width: 1600px) {
         h6{
                 font-size: 120px;
                 top: 0px;
@@ -140,10 +140,27 @@ h6{
                 position: absolute;
         }  
 } 
-@media (max-width: 412px){
+@media (max-width: 428px){
         h6{
                 font-size: 40px;
                 top: 335px;
+                left: 50px;
+                position: absolute;
+        }     
+}
+@media (max-width: 393px), (max-height: 873px) {
+        h6{
+                font-size: 35px;
+                top: 275px;
+                left: 70px;
+                position: absolute;
+        }     
+} 
+
+@media (max-width: 375px){
+        h6{
+                font-size: 35px;
+                top: 225px;
                 left: 40px;
                 position: absolute;
         }     

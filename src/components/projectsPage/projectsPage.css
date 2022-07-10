@@ -245,7 +245,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-top: 20px;
+        margin-top: 60px;
         gap: 90px;
     }
 
@@ -512,7 +512,7 @@
     }
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 428px) {
     .container-skills{
         width: 100%;
         display: flex;
@@ -553,7 +553,7 @@
         width: 90px;
         position: absolute;
         bottom: -10px;
-        left: 160px;
+        left: 170px;
         cursor: pointer;
         animation: scales 1.5s ease-in-out infinite;
     }
@@ -561,7 +561,51 @@
         width: 90px;
         position: absolute;
         bottom: -30px;
-        left: 160px;
+        left: 170px;
+        cursor: pointer;
+        animation: scales 1.5s ease-in-out infinite;
+    }
+}
+@media (max-width: 393px), (max-height: 873px) {
+    .titulo-galery{
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+    .arrow-projects1{
+        width: 90px;
+        position: absolute;
+        bottom: -10px;
+        left: 155px;
+        cursor: pointer;
+        animation: scales 1.5s ease-in-out infinite;
+    }
+    .arrow-projects2{
+        width: 90px;
+        position: absolute;
+        bottom: -30px;
+        left: 155px;
+        cursor: pointer;
+        animation: scales 1.5s ease-in-out infinite;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .titulo-galery{
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+    .arrow-projects1{
+        width: 90px;
+        position: absolute;
+        bottom: -10px;
+        left: 145px;
+        cursor: pointer;
+        animation: scales 1.5s ease-in-out infinite;
+    }
+    .arrow-projects2{
+        width: 90px;
+        position: absolute;
+        bottom: -30px;
+        left: 145px;
         cursor: pointer;
         animation: scales 1.5s ease-in-out infinite;
     }
