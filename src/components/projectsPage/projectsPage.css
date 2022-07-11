@@ -208,7 +208,7 @@
     transition: all ease-in-out .7s;
 }
 
-@media only screen and (max-width: 3440px) {
+@media (max-width: 3440px) {
     .container-git-site{
         width: 90%;
         display: flex;
@@ -275,7 +275,7 @@
     .arrow-projects1{
         width: 210px;
         position: absolute;
-        bottom: -50px;
+        bottom: -30px;
         left: 1280px;
         cursor: pointer;
         animation: scales 1.5s ease-in-out infinite;
@@ -283,14 +283,14 @@
     .arrow-projects2{
         width: 210px;
         position: absolute;
-        bottom: -75px;
+        bottom: -55px;
         left: 1280px;
         cursor: pointer;
         animation: scales 1.5s ease-in-out infinite;
     } 
 }
 
-@media only screen and (max-width: 1920px) {
+@media (max-width: 1920px) {
     .container-git-site{
         width: 100%;
         display: flex;
@@ -371,7 +371,7 @@
         animation: scales 1.5s ease-in-out infinite;
     } 
 }
-@media screen and (max-width: 1600px) {
+@media (max-width: 1600px) {
     .titulo-galery{
         font-size: 35px;
     }
@@ -394,7 +394,7 @@
     } 
 
 }
-@media only screen and (max-width: 1280px) {
+@media (max-width: 1280px) {
      
     .container-git-site{
         width: 100%;
@@ -474,7 +474,7 @@
     }
 }
 
-@media screen and (max-width: 992px) {
+@media (max-width: 992px) {
     .arrow-projects1{
         width: 130px;
         position: absolute;
@@ -493,7 +493,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .arrow-projects1{
         width: 110px;
         position: absolute;
@@ -512,7 +512,7 @@
     }
 }
 
-@media only screen and (max-width: 428px) {
+@media (max-width: 428px) {
     .container-skills{
         width: 100%;
         display: flex;
@@ -566,7 +566,7 @@
         animation: scales 1.5s ease-in-out infinite;
     }
 }
-@media (max-width: 393px), (max-height: 873px) {
+@media (max-width: 393px){
     .titulo-galery{
         font-size: 22px;
         margin-bottom: 0px;
@@ -588,7 +588,7 @@
         animation: scales 1.5s ease-in-out infinite;
     }
 }
-@media only screen and (max-width: 375px) {
+@media (max-width: 375px) {
     .titulo-galery{
         font-size: 22px;
         margin-bottom: 0px;

@@ -141,7 +141,7 @@
         margin: 80px;
     }
 }
-@media screen and (max-width: 1600px) {
+@media (max-width: 1600px) {
     .container-button-start{
         width: 90%;
     }
@@ -261,7 +261,7 @@
         font-weight: 500;
     }
 }
-@media (max-width: 393px), (max-height: 873px) {
+@media (max-width: 393px){
     .content{
         justify-content: center;
         align-items: center;
