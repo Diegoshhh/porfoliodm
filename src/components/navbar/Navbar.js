@@ -11,9 +11,9 @@ const Navbar = () => {
             <div className='containter-available'>
                 <p className='logo-text'>I'm <span>Available</span> for work July 2022</p>
             </div>
-            <a href='mailto:diegoshhh@gmail.com' className='cta'>
-                Contact<i className="ri-arrow-right-line"></i>
-            </a>
+            <Link to='/projects' className='cta'>
+                Projects<i className="ri-arrow-right-line"></i>
+            </Link>
         </div>
     </>
   )
